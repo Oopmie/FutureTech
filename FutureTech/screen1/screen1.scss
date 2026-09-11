@@ -108,20 +108,20 @@ header {
 
 .section1 {
     width: 100%;
-    height: 90vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
 
 
     .cont1_top {
         width: 100%;
-        height: 80%;
+        height: 75%;
         display: flex;
         border: 1px #262626 solid;
         flex-direction: row;
 
         .cont1l {
-            width: 60vw;
+            width: 55%;
             border: 1px #262626 solid;
             display: flex;
             flex-direction: column;
@@ -151,7 +151,7 @@ header {
         }
 
         .cont1_r {
-            width: 40vw;
+            width: 45%;
             border: 1px #262626 solid;
             background-image: url(../photos/image1.png);
             background-repeat: no-repeat;
@@ -172,41 +172,113 @@ header {
                     height: 40%;
                     display: flex;
                     flex-direction: column;
-                    img:first-child{
+                    justify-content: space-between;
+
+                    img:first-child {
                         height: 7vh;
                         width: 10vw;
                     }
-                    
 
+                    button {
+                        width: 40%;
+                        padding: 1vw;
+                        border: 1px #262626 solid;
+                        border-radius: 10px;
+                        background-color: #141414;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
 
-                }
-
-            }
-        }
-
-        .cont1_bot {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            height: 20%;
-
-            .c1 {
-                width: 33.4%;
-                padding: 3vw;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: start;
-                border: 1px #262626 solid;
-
-                .dbot {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                    align-items: center;
-                    width: 100%;
+                        img {
+                            width: 1.5vw;
+                            height: 1.5vw;
+                        }
+                    }
                 }
             }
         }
     }
+
+    .cont1_bot {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 25%;
+
+        .c1 {
+            width: 33.4%;
+            padding: 3vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: start;
+            border: 1px #262626 solid;
+
+            .dbot {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+.section2 {
+    width: 100%;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+
+
+    .section_header2 {
+        background-color: #1A1A1A;
+        padding: 4vw;
+        height: 20%;
+
+        div {
+            background-color: #333333;
+            width: 15%;
+            padding: 1vw;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .realsection2 {
+        width: 100%;
+        height: 80%;
+        
+        .top_container21{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .top_container22{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .left_cont21,
+        .left_cont22 {
+            width: 40%;
+            padding: 4vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: start;
+            border: 1px #262626 solid;
+        }
+    }
+
 }
