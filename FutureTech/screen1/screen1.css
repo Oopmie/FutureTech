@@ -213,7 +213,7 @@ header a {
 }
 .section2 .section_header2 {
   background-color: #1A1A1A;
-  padding: 4vw;
+  padding: 3vw;
   height: 20%;
 }
 .section2 .section_header2 div {
@@ -334,6 +334,7 @@ header a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border: #262626 1px solid;
 }
 .section3 .comment3 .human3 {
   display: flex;

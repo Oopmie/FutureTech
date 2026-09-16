@@ -101,6 +101,118 @@ header a {
   color: white;
 }
 
+.coolbut {
+  border: #262626 1px solid;
+  border-radius: 10px;
+  padding: 1vw;
+  background-color: #141414;
+  width: 11vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section1 .double_head {
+  width: 100%;
+  height: 50vh;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: #262626 1px solid;
+}
+.section1 .double_head div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1 .double_head div p {
+  width: 65%;
+}
+.section1 .topcont1 {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
+.section1 .topcont1 .leftcont1 {
+  width: 40%;
+  padding: 7vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  border: #262626 1px solid;
+}
+.section1 .topcont1 .leftcont1 .starsyo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.section1 .topcont1 .leftcont1 .niz1 {
+  background-color: #1A1A1A;
+  width: 100%;
+  padding: 1vw;
+  border: #262626 1px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section1 .topcont1 .rightcont1 {
+  border: #262626 1px solid;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3vw;
+}
+.section1 .topcont1 .rightcont1 .niz2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.section1 .topcont1 .rightcont1 .niz2 div {
+  background-color: #1A1A1A;
+  width: 17vw;
+  padding: 1vw;
+  border: #262626 1px solid;
+  border-radius: 10px;
+}
+
+.section2 .section_header2 {
+  background-color: #1A1A1A;
+  padding: 3vw;
+  height: 20%;
+}
+.section2 .section_header2 div {
+  background-color: #333333;
+  width: 21%;
+  padding: 1vw;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section2 .table2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.section2 .table2 .linegrr {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+}
+.section2 .table2 .linegrr .cellofline {
+  padding: 3vw;
+  border: #262626 1px solid;
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .section6 {
   width: 100%;
   height: 70vh;

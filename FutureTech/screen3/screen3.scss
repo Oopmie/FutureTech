@@ -104,9 +104,189 @@ header {
     }
 }
 
-.section1{
+.section1 {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 2vw;
+    background-image: url(../photos/backblog.png);
+    background-repeat: no-repeat;
 
+}
 
+.dopsection1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    .left_container1 {
+        width: 70%;
+
+        .left_top_cont {
+            border: #262626 1px solid;
+            padding: 3vw;
+
+        }
+
+        .left_bot_cont {
+            border: #262626 1px solid;
+            padding: 3vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 70vh;
+
+        }
+    }
+
+    button {
+        position: absolute;
+        top: 164vh;
+        left: 27vw;
+        width: 12vw;
+        padding: 1vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #141414;
+        border: #262626 1px solid;
+        border-radius: 10px;
+    }
+
+    .right_container1 {
+        width: 30%;
+
+        .likes {
+            height: 20%;
+            display: flex;
+            flex-direction: row;
+            padding: 3vw;
+            border: #262626 1px solid;
+
+            div{
+                width: 8vw;
+                background-color: #1A1A1A;
+                margin-right: 2vw;
+                padding: 1vw;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                border: #262626 1px solid;
+                border-radius: 30px;
+            }
+        }
+        .description{
+            height: 80%;
+            border: #262626 1px solid;
+            padding: 3vw;
+
+            .topliner{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+                    height: 10vh;
+                    justify-content: space-evenly;
+                }
+            }
+            .table1{
+                background-color: #1A1A1A;
+                color: white;
+                padding: 2vw;
+                border-radius: 10px;
+                height: 38vh;
+                ul{
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}
+
+.section2 {
+    border: #262626 1px solid;
+}
+
+.topl2 {
+    width: 100%;
+    padding: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+        width: 12vw;
+        padding: 1vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #141414;
+        border: #262626 1px solid;
+        border-radius: 10px;
+    }
+}
+
+.container13 {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3vw;
+
+    .cards1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.bottom_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .comments {
+        width: 11vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        div {
+            padding: 1vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1A1A1A;
+            border-radius: 30px;
+        }
+    }
+
+    button {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 12vw;
+        background-color: #141414;
+        border: #262626 1px solid;
+        border-radius: 10px;
+        padding: 1vw;
+    }
 }
 
 .section6 {

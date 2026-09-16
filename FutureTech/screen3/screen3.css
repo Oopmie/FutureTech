@@ -97,6 +97,174 @@ header a {
   color: white;
 }
 
+.section1 {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 2vw;
+  background-image: url(../photos/backblog.png);
+  background-repeat: no-repeat;
+}
+
+.dopsection1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.dopsection1 .left_container1 {
+  width: 70%;
+}
+.dopsection1 .left_container1 .left_top_cont {
+  border: #262626 1px solid;
+  padding: 3vw;
+}
+.dopsection1 .left_container1 .left_bot_cont {
+  border: #262626 1px solid;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70vh;
+}
+.dopsection1 button {
+  position: absolute;
+  top: 164vh;
+  left: 27vw;
+  width: 12vw;
+  padding: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;
+  border: #262626 1px solid;
+  border-radius: 10px;
+}
+.dopsection1 .right_container1 {
+  width: 30%;
+}
+.dopsection1 .right_container1 .likes {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  padding: 3vw;
+  border: #262626 1px solid;
+}
+.dopsection1 .right_container1 .likes div {
+  width: 8vw;
+  background-color: #1A1A1A;
+  margin-right: 2vw;
+  padding: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: #262626 1px solid;
+  border-radius: 30px;
+}
+.dopsection1 .right_container1 .description {
+  height: 80%;
+  border: #262626 1px solid;
+  padding: 3vw;
+}
+.dopsection1 .right_container1 .description .topliner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dopsection1 .right_container1 .description .topliner div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 10vh;
+  justify-content: space-evenly;
+}
+.dopsection1 .right_container1 .description .table1 {
+  background-color: #1A1A1A;
+  color: white;
+  padding: 2vw;
+  border-radius: 10px;
+  height: 38vh;
+}
+.dopsection1 .right_container1 .description .table1 ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section2 {
+  border: #262626 1px solid;
+}
+
+.topl2 {
+  width: 100%;
+  padding: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.topl2 button {
+  width: 12vw;
+  padding: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;
+  border: #262626 1px solid;
+  border-radius: 10px;
+}
+
+.container13 {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3vw;
+}
+.container13 .cards1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom_1 .comments {
+  width: 11vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom_1 .comments div {
+  padding: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A1A1A;
+  border-radius: 30px;
+}
+.bottom_1 button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 12vw;
+  background-color: #141414;
+  border: #262626 1px solid;
+  border-radius: 10px;
+  padding: 1vw;
+}
+
 .section6 {
   width: 100%;
   height: 70vh;

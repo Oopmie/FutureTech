@@ -101,6 +101,88 @@ header a {
   color: white;
 }
 
+.section1 .double_head {
+  width: 100%;
+  height: 50vh;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: #262626 1px solid;
+}
+.section1 .double_head div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1 .double_head div p {
+  width: 78%;
+}
+.section1 .container12 {
+  width: 100%;
+  height: 50vh;
+  padding: 3vw;
+  border: #262626 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section1 .container12 .right_container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section1 .container12 .right_container1 .category {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1 .container13 {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3vw;
+  border: #262626 1px solid;
+}
+.section1 .container13 .cards1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom_1 .comments {
+  width: 11vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom_1 .comments div {
+  padding: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A1A1A;
+  border-radius: 30px;
+}
+.bottom_1 button {
+  width: 12vw;
+  background-color: #141414;
+  border: #262626 1px solid;
+  border-radius: 10px;
+  padding: 1vw;
+}
+
 .section_header3 {
   background-color: #1A1A1A;
   padding: 4vw;
@@ -167,6 +249,7 @@ header a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border: #262626 1px solid;
 }
 .section3 .comment3 .human3 {
   display: flex;
@@ -203,6 +286,11 @@ header a {
   width: 15%;
   cursor: pointer;
 }
+.section3 .comment3 .center3 .center_button .righthead3 a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 20px;
+}
 .section3 .comment3 .center3 .comments {
   display: flex;
   flex-direction: row;
@@ -211,6 +299,29 @@ header a {
 }
 .section3 .comment3 .center3 .comments div {
   display: flex;
+}
+
+.section4 {
+  width: 100%;
+}
+.section4 .video_table4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.section4 .video_table4 .topline4 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.section4 .video_table4 .topline4 div {
+  padding: 6vw;
+  width: 50%;
+  border: #262626 1px solid;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .section6 {

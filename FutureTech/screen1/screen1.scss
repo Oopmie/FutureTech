@@ -239,7 +239,7 @@ header {
 
     .section_header2 {
         background-color: #1A1A1A;
-        padding: 4vw;
+        padding: 3vw;
         height: 20%;
 
         div {
@@ -373,6 +373,7 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        border: #262626 1px solid;
 
         .human3 {
             display: flex;
